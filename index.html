@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brandon Ogola's personal portfolio showcasing skills, projects, and blog.">
+    <title>Brandon Ogola - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BRANDON</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="blog/index.html">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <div>
+            <h1>Hello There, I'm Brandon Ogola</h1>
+            <p>I Am Into <span class="highlight">Web Development</span></p>
+            <a href="about.html" class="btn">About Me</a>
+            <div class="socials">
+                <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+                <a href="#"><img src="images/github.png" alt="GitHub"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>My <span class="highlight">Skills</span></h2>
+        <div class="skills-content">
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>React</h3>
+                <div class="skill-bar">
+                    <div class="skill-level" style="width: 75%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>My <span class="highlight">Work</span></h2>
+        <div class="portfolio-content">
+            <div class="portfolio-item">
+                <img src="images/project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Project 1 description...</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Project 2 description...</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/project3.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Project 3 description...</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact <span class="highlight">Me</span></h2>
+        <form action="mailto:brandon14ogola@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Brandon Ogola. All rights reserved.</p>
+    </footer>
+</body>
+</html>
